@@ -11,10 +11,15 @@ class Student:
     def average(self):
         return self.total() / len(self.marks)
     def result(self):
-        if self.average() >= 40:
-            return "Pass"
-        else:
-            return "Fail"
+     avg = self.average()
+     if avg >= 85:
+         return "Pass (Grade A)"
+     elif avg >= 70:
+         return "Pass (Grade B)"
+     elif avg >= 40:
+         return "Pass (Grade C)"
+     else:
+         return "Fail"
     def show(self):
         print("Name:", self.name)
         print("Marks:", self.marks)
