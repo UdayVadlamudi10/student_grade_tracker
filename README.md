@@ -25,7 +25,7 @@ An object-oriented Python CLI application designed to record, validate, and comp
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/UdayVadlamudi10/week5-git-practice.git
+   git clone https://github.com/UdayVadlamudi10/student_grade_tracker.git
    cd student-grade-tracker
 
 2. **Verify Python Version:**
