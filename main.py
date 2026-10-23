@@ -19,7 +19,7 @@ class Student:
         print("Name:", self.name)
         print("Marks:", self.marks)
         print("Total:", self.total())
-        print("Average:", self.average())
+        print("Average:", round(self.average(),2))
         print("Result:", self.result())
 students = []
 students_count = int(input("Students count: "))
